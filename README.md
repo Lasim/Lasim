@@ -13,11 +13,11 @@ It is very easy to reach me personally. Use the following platforms:
 
 ## 🔭 I’m working on
 
-I am working on my "make the IaC world easy" project [deploy.my](https://deploy.my). 
+I am working on my "make the IaC world easy" project [DeployStack](https://deploystack.io). 
 
 Basically I wrote a translation module that translates `docker-compose.yml` into common Infrastructure as Code templates and makes it deployable with a one-click mechanism.
 
-Translation module = [docker-to-iac](https://www.npmjs.com/package/@deploymy/docker-to-iac) - Github: [https://github.com/deploymy/docker-to-iac](https://github.com/deploymy/docker-to-iac).
+Translation module = [docker-to-iac](https://www.npmjs.com/package/@deploystack/docker-to-iac) - Github: [https://github.com/deploystackio/docker-to-iac](https://github.com/deploystackio/docker-to-iac).
 
 ## ⚡ Fun fact
 
