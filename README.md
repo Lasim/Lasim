@@ -11,11 +11,21 @@ It is very easy to reach me personally. Use the following platforms:
 [![Linkedin Badge](https://img.shields.io/badge/-piotr--hajdas-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/piotr-hajdas/)](https://www.linkedin.com/in/piotr-hajdas/)
 [![X Badge](https://img.shields.io/badge/-@piotr_hajdas-000000?style=flat&labelColor=00000&logo=x&logoColor=white&link=https://x.com/piotr_hajdas)](https://x.com/piotr_hajdas)
 
-## 🔭 I’m working on
+## 🔭 I'm working on
+
+<a href="https://deploystack.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdnx.deploystack.io/logo/logo-full-new-transparent-dark-bg.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://cdnx.deploystack.io/logo/logo-full-new-transparent-light-bg.png">
+    <img alt="DeployStack Logo" src="https://cdnx.deploystack.io/logo/logo-full-new-transparent-light-bg.png">
+  </picture>
+</a>
+
+<br/>
 
 I am working on my "make the IaC world easy" project [DeployStack](https://deploystack.io). 
 
-Basically I wrote a translation module that translates `docker-compose.yml` into common Infrastructure as Code templates and makes it deployable with a one-click mechanism.
+Basically I wrote a translation module that translates `docker-compose.yml` and docker run command into common Infrastructure as Code templates and makes it deployable with a one-click mechanism.
 
 Translation module = [docker-to-iac](https://www.npmjs.com/package/@deploystack/docker-to-iac) - Github: [https://github.com/deploystackio/docker-to-iac](https://github.com/deploystackio/docker-to-iac).
 
