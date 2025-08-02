@@ -15,19 +15,24 @@ It is very easy to reach me personally. Use the following platforms:
 
 <a href="https://deploystack.io">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdnx.deploystack.io/logo/logo-full-new-transparent-dark-bg.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://cdnx.deploystack.io/logo/logo-full-new-transparent-light-bg.png">
-    <img alt="DeployStack Logo" src="https://cdnx.deploystack.io/logo/logo-full-new-transparent-light-bg.png">
+    <source media="(prefers-color-scheme: dark)" srcset="lasim-profile.png">
+    <source media="(prefers-color-scheme: light)" srcset="lasim-profile.png">
+    <img alt="DeployStack Logo" src="lasim-profile.png">
   </picture>
 </a>
 
 <br/>
 
-I am working on my "make the IaC world easy" project [DeployStack](https://deploystack.io). 
+I am working on [DeployStack](https://deploystack.io) - The Complete MCP Management Platform that scales from solo developers to enterprise teams.
 
-Basically I wrote a translation module that translates `docker-compose.yml` and docker run command into common Infrastructure as Code templates and makes it deployable with a one-click mechanism.
+DeployStack solves MCP (Model Context Protocol) complexity by eliminating credential management hell, reducing onboarding friction from days to minutes, and providing organizational visibility into AI tool usage. We turn MCP from "too complex to adopt" into "too easy not to use."
 
-Translation module = [docker-to-iac](https://www.npmjs.com/package/@deploystack/docker-to-iac) - Github: [https://github.com/deploystackio/docker-to-iac](https://github.com/deploystackio/docker-to-iac).
+**Key components:**
+- **Control Plane**: [cloud.deploystack.io](https://cloud.deploystack.io) - Centralized credential vault, team management, and MCP server catalog
+- **Data Plane**: DeployStack Gateway - Local secure proxy that provides zero-configuration access to all team-authorized MCP tools
+- **Architecture**: Hybrid SSE + stdio system with persistent process management for instant tool availability
+
+Main repository: [deploystackio/deploystack](https://github.com/deploystackio/deploystack)
 
 ## ⚡ Fun fact
 
