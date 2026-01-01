@@ -25,12 +25,13 @@ It is very easy to reach me personally. Use the following platforms:
 
 I am working on [DeployStack](https://deploystack.io) - The Complete MCP Management Platform that scales from solo developers to enterprise teams.
 
-DeployStack solves MCP (Model Context Protocol) complexity by eliminating credential management hell, reducing onboarding friction from days to minutes, and providing organizational visibility into AI tool usage. We turn MCP from "too complex to adopt" into "too easy not to use."
+DeployStack solves two critical MCP (Model Context Protocol) challenges: management chaos (credential sprawl, lack of governance) and context window crisis (token bloat from loading 150+ tools).
 
-**Key components:**
+**Key innovations:**
+- **Zero Installation**: Just add one URL to VS Code settings - no CLI installation required
+- **Hierarchical Router**: 2 meta-tools (`discover_mcp_tools`, `execute_mcp_tool`) reduce token consumption by 98.3%
+- **Dual Deployment**: Global Satellites (managed, freemium) or Team Satellites (self-hosted with Docker)
 - **Control Plane**: [cloud.deploystack.io](https://cloud.deploystack.io) - Centralized credential vault, team management, and MCP server catalog
-- **Data Plane**: DeployStack Gateway - Local secure proxy that provides zero-configuration access to all team-authorized MCP tools
-- **Architecture**: Hybrid SSE + stdio system with persistent process management for instant tool availability
 
 Main repository: [deploystackio/deploystack](https://github.com/deploystackio/deploystack)
 
